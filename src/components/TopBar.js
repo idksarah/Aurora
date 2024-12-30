@@ -3,7 +3,7 @@
 function TopBar(){ //notice that first letter is capitalized and matches file name
     return(
         <div>
-            <p>Aurora</p>
+            <p  className="text">Aurora</p>
         </div>
     )
 }

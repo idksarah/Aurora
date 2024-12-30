@@ -1,0 +1,39 @@
+#root{
+    background-color: rgb(29, 29, 31);
+    height: 100vh;
+    width: 200vw;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.content{
+    display: flex;
+}
+.left{
+    display: flex;
+    width: 80vw;
+}
+
+.right{
+    margin-left: 20vw;
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstCard{
+    margin-top: 3em;
+}
+
+.secondCard{
+    margin-top: 60em;
+    margin-left: 30em;
+}
+
+.text {
+    color: white;
+}
