@@ -54,8 +54,6 @@ function Home() {
                     <div className="logoContainer">
                         <div className="logoDiv">
                             <img src={logo} className="logo" alt="logo" />
-                        </div>
-                        <div className="stars">
                             <div className={`Mission ${selected === 'Mission' ? 'centeredContent' : ''}`} onClick={() => handleClick('Mission')}>
                                 <p className="text">Mission</p>
                             </div>
