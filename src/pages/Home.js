@@ -1,42 +1,78 @@
+import React, { useState } from 'react';
 import './Home.css';
 import TopBar from '../components/TopBar';
 import Question from '../components/Question';
 import Card from '../components/Card';
 import Faq from '../components/Card';
+import logo from './../img/logo.svg';
+import star from './../img/star.webp';
 
-function Home(){
-    return(
+function showFAQs() {
+    return (
+        <Faq />
+    )
+}
+
+function showMission() {
+    return (
+        <div>
+            <p>Our Mission</p>
+            <p>Empowering girls to code and stuff</p>
+        </div>
+    )
+}
+
+function goRegister() {
+    
+}
+
+function Home() {
+    const [isDimmed, setIsDimmed] = useState(false);
+    const [selected, setSelected] = useState('');
+
+    const handleClick = (type) => {
+        setIsDimmed(true);
+        setSelected(type);
+    };
+
+    return (
         <>
+            {isDimmed && <div className="dimmer" />}
             <div className="content">
                 <div className="left">
                     <div className="firstCard">
-                        <Card content={"ready for some thing in sf!!!!?????! (shift + scroll wheel)"}></Card>
+                        <Card content={`Step into a world where code meets cosmos, and imagination knows no bounds.\n(shift + scroll wheel)`} />
                     </div>
                     <div className="secondCard">
-                        <Card content={"gonna be sooooo cool"}/>
+                        <Card content={"A space where high school girls shine brighter than the stars—"} />
+                    </div>
+                    <div className="thirdCard">
+                        <Card content={"Collaborating, innovating, and building projects that could change the world."} />
                     </div>
                 </div>
                 <div className="right">
-                    <div className="logo">
-                        <p className="text">Aurora</p>
-                        <p className="text">gonna add logo instead of text later</p>
-                        <p className="text">date</p>
-                    </div>
-                    <div className="The Mission">
-                        <p  className="text">empowering women and stuff wyayayaya i love women</p>
-                    </div>
-                    <div className="Faq">
-                        <Faq/>
-                    </div>
-                    <div className="Sponsors">
-                    </div>
-                    <div className="Register">
-                        <p className="text">Ready to start? Register here!</p>
+                    <div className="logoContainer">
+                        <div className="logoDiv">
+                            <img src={logo} className="logo" alt="logo" />
+                        </div>
+                        <div className="stars">
+                            <div className={`Mission ${selected === 'Mission' ? 'centeredContent' : ''}`} onClick={() => handleClick('Mission')}>
+                                <p className="text">Mission</p>
+                            </div>
+                            <div className={`Faq ${selected === 'Faq' ? 'centeredContent' : ''}`} onClick={() => handleClick('Faq')}>
+                                <p className="text">FAQs</p>
+                            </div>
+                            <div className="Register">
+                                <p className="text">Ready?</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            {selected === 'Mission' && showMission()}
+            {selected === 'Faq' && showFAQs()}
         </>
-    )
+    );
 }
 
 export default Home;
