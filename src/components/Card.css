@@ -37,10 +37,11 @@
 .QA{
     padding-top: 0;
     padding-bottom: 0;
+    max-width: 50em;
 }
 
 .workshopCard{
-    width: 50em;
+    max-width: 50em;
 }
 
 /* .workshopCards, .pastEventCards{

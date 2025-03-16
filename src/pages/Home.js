@@ -6,7 +6,7 @@ import Card, { PastEventCard } from '../components/Card';
 import Workshop from '../components/Workshop';
 
 import solstice from '../img/solstice.png'
-import luna from '../img/luna.webp'
+import luna from '../img/luna.png'
 import ascend from '../img/ascend.webp'
 import celestial from '../img/celestial.webp'
 import golden from '../img/golden.jfif'
@@ -35,7 +35,7 @@ function Home() {
                 </div>
                 <div className="logoContainer" id="aurora">
                     <img src={logo} className="logo" alt="logo" />
-                    <p className="location white">date and time to date and time | San Francisco, CA</p>
+                    <p className="location white">San Francisco, CA</p>
                 </div>
                 <div className="about container" id="about">
                     <p className="h3 accent">Aurora?</p>
@@ -46,7 +46,9 @@ function Home() {
                     <div className="pastEventCards">
                         <PastEventCard name="Ascend | Nov '24" img={ascend} />
                         <PastEventCard name="Celestial | Oct '24" img={celestial} />
-                        <PastEventCard name="Luna | Oct '24" img={solstice} />
+                        <PastEventCard name="Luna | Oct '24" img={luna} />
+                        <PastEventCard name="Solstice | Oct '24" img={solstice} />
+                        <PastEventCard name="Golden | Oct '24" img={golden} />
                     </div>
                 </div>
                 <div className="workshops container" id="workshops">
@@ -62,7 +64,7 @@ function Home() {
                         <QuestionAnswer question="What's a hackathon?" answer="Aurora is a social coding event—spend a day coding, learning, and creating with support from mentors, workshops, and lots of food and swag. No experience? No problem!" />
                         <QuestionAnswer question="Who can attend?" answer="Aurora is open to all girls and non-binary persons excited to learn and build, no matter their experience level." />
                         <QuestionAnswer question="What if I've never coded before?" answer="Come join us! We’ll have beginner-friendly workshops, mentors, and plenty of support to get you started." />
-                        <QuestionAnswer question="What should I bring?" answer="A laptop, charger, and your excitement to learn!" />
+                        <QuestionAnswer question="What should I bring?" answer="A laptop, charger, and your excitement to learn! Food will be provided." />
                         <QuestionAnswer question="I have more questions!" answer="You can find us in the #sf-athena channel on Hack Club Slack, or email us at sarah.p.ngai@gmail.com." />
                     </div>
                 </div>

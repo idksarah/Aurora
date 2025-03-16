@@ -65,6 +65,13 @@ body {
     align-items: center;
 }
 
+.pastEventCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em; /* Adds spacing between the cards */
+}
+
 .container {
     display: flex;
     flex-direction: column;
