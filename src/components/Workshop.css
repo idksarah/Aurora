@@ -1,0 +1,12 @@
+.workshopImg {
+    height: 5em;
+}
+
+.workshopCard{
+    display: flex;
+    flex-direction: column;
+}
+
+.workshopContent{
+    display: flex;
+}

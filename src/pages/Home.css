@@ -1,112 +1,52 @@
-#root{
-    height: 100vh;
-    width: 200vw;
-}
-
 body {
-    overflow-y: hidden;
     background-color: rgb(16, 16, 26);
 }
 
 .content{
     display: flex;
-}
-.left{
-    display: flex;
-    width: 120vw;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-    margin-left: 20em;
-}
-
-.right{
-    margin-left: 20vw;
-    margin-right: 30vw;
-    display: flex;
-    max-width: fit-content;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-
-.firstCard, .secondCard, .thirdCard{
-    width: 40em;
-}
-
-.cardText {
-    font-size: 1.5rem;
-}
-
-.thirdCard{
-    margin-bottom: 20em;
-    
-}
-
-.secondCard{
-    margin-top: 40em;
-}
-
-.text {
-    color: white;
+.text , p {
+    color: rgb(226, 226, 230);
 }
 
 .logo{
-    height: 50em;
+    width: 50em;
 }
 
-.Mission, .Faq, .Register {
-    background-image: url('./../img/star.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 20px;
-    color: white;
-    border-radius: 10px;
-    margin: 10px 0;
-    height: 20em;
-    text-align: center;
+.h3 {
+    font-size: 1.5rem;
+    color:rgb(0, 255, 221);
+}
+
+.pastEvents{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer; 
-    position: absolute;
-    z-index: 10;
 }
 
-.Mission {
-    height: 20em;
-    width: 20em;
-    transform: translate(50%,-80%)  scale(1.2);
+.topBar{
+    height: 5em;
+    display: flex;
+    align-items: center;   
 }
 
-.Faq {
-    height: 12em;
-    width: 12em;
-    transform: translate(20%,-400%)  scale(1.2);
+.topBarElement{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
-.Register {
-    height: 18em;
-    width: 18em;
-    transform: translate(380%,-275%)  scale(1.2);
+.location{
+    text-align: center;
+    color:rgb(0, 255, 221);
 }
 
-.logoContainer {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
+.pastCards, .workshopCards{
+    display: flex;
+    flex-direction: horizontal;
 }
 
-.logoDiv {
-    position: relative;
-    z-index: 1;
-}
-
-.text {
-    color: white;
-}
-
-.logo {
-    height: 60em;
+.container {
+    display: flex;
+    flex-direction: column;
 }

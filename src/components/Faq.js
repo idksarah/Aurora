@@ -1,9 +1,13 @@
-import Card from "./Card";
+import './Card.css';
 
-function Faq(){
-    return(
-        <Card content={"question"}/>
-    )
+function FaqCard() {
+    return (
+        <div className="card">
+            <p className="text cardText">
+                Question 1: hai
+            </p>
+        </div>
+    );
 }
 
-export default Faq;
+export default FaqCard;

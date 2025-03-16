@@ -1,9 +1,10 @@
 import './Card.css';
 
-function Card({ content }) {
+function Card({name, img }) {
     return (
         <div className="card">
-            <p className="text cardText" dangerouslySetInnerHTML={{ __html: content }}></p>
+            <img className="img" src={img}></img>
+            <p className="text eventName">{name}</p>
         </div>
     );
 }
