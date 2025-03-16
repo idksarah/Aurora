@@ -7,6 +7,12 @@
     flex-direction: column;
 }
 
+.workshopCards{
+    display: flex;
+    justify-content: center;
+}
+
 .workshopContent{
     display: flex;
+    color: rgb(232, 239, 238);
 }

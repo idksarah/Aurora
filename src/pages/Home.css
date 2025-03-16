@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(16, 16, 26);
+    background-color: rgb(16, 16, 32);
 }
 
 .content{
@@ -7,46 +7,96 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 .text , p {
-    color: rgb(226, 226, 230);
+    font-size: 1.5rem;
 }
 
 .logo{
-    width: 50em;
+    max-width: 60em;
 }
 
 .h3 {
-    font-size: 1.5rem;
-    color:rgb(0, 255, 221);
+    font-size: 2rem;
+    color:rgb(41,41,41);
+    text-align: center;
+}
+
+.accent{
+    color: rgb(0, 255, 221);
 }
 
 .pastEvents{
     display: flex;
 }
 
-.topBar{
+.topBarElements{
     height: 5em;
     display: flex;
     align-items: center;   
+    justify-content: center;
+}
+.topBar {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: space-between;
 }
 
 .topBarElement{
     margin-left: 2em;
     margin-right: 2em;
+    cursor: pointer;
+    color: rgb(232, 239, 238)
+}
+
+.topBarElement:hover{
+    color: rgb(0, 255, 221);
 }
 
 .location{
     text-align: center;
-    color:rgb(0, 255, 221);
 }
 
-.pastCards, .workshopCards{
+.pastEventCards, .workshopCards{
     display: flex;
-    flex-direction: horizontal;
+    align-items: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    max-width: 60em;
+    margin-bottom: 3em;
+}
+
+.aboutContent{
+    color: rgb(232, 239, 238)
+}
+
+.location{
+    margin-top: -1em;
+    font-size: 1.5rem;
+}
+
+.p2{
+    font-size: 1.75rem;
+}
+
+.date{
+    text-align: center;
+}
+
+.logoContainer{
+    margin-bottom: 5em;
+}
+
+.white{
+    color: rgb(232, 239, 238)
+}
+
+.hackclubLogo{
+    height:7em;
 }

@@ -1,16 +1,50 @@
 .card {
     padding: 1em;
-    background-color: rgb(200, 255, 246);
-    border-style: solid;
-    margin: 2em;
+    margin: 1em;
     width: fit-content;
-    border-radius: 1em;
-}
-
-.text{
-    color: black;
 }
 
 .img{
-    height: 15em;
+    height: 10em;
 }
+
+.question{
+    font-style: italic;
+}
+
+.pastEventCard{
+    background-color: rgb(232, 239, 238);
+    border: dotted;
+    border-color: rgb(0, 255, 221);
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic
+}
+
+.eventName{
+    text-align: left;
+}
+
+.QA, .workshopCard{
+    border: dotted;
+    border-color: rgb(0, 255, 221);
+    color: rgb(232, 239, 238);
+}
+
+.QA{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.workshopCard{
+    width: 50em;
+}
+
+/* .workshopCards, .pastEventCards{
+    max-width: 60em;
+    display: flex;
+    align-items: center;
+} */
