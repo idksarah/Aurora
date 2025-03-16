@@ -68,7 +68,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 80em;
+    max-width: 60em;
     margin-bottom: 3em;
 }
 

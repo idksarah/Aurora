@@ -1,11 +1,11 @@
 .card {
     padding: 1em;
-    margin: 2em;
+    margin: 1em;
     width: fit-content;
 }
 
 .img{
-    height: 15em;
+    height: 10em;
 }
 
 .question{
@@ -16,6 +16,16 @@
     background-color: rgb(232, 239, 238);
     border: dotted;
     border-color: rgb(0, 255, 221);
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic
+}
+
+.eventName{
+    text-align: left;
 }
 
 .QA, .workshopCard{
