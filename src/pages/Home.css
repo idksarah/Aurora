@@ -42,6 +42,10 @@ text-align: center;
 color: #dcd1c8;
 }
 
+.accent2{
+    color: #b5cbe5;
+}
+
 .pastEvents {
 display: flex;
 flex-wrap: wrap;
@@ -71,7 +75,7 @@ color: rgb(232, 239, 238);
 }
 
 .topBarElement:hover {
-color: #6e83ab;
+color: #dcd1c8;
 }
 
 .location {
