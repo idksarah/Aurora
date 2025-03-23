@@ -2,6 +2,7 @@
     padding: 1em;
     margin: 1em;
     width: fit-content;
+    border-radius: 10px;
 }
 
 .img{
@@ -10,12 +11,15 @@
 
 .question{
     font-style: italic;
+    
 }
 
 .pastEventCard{
     background-color: rgb(232, 239, 238);
     border: dotted;
-    border-color: rgb(0, 255, 221);
+    border-color: #b5cbe5;
+    
+    border-radius: 0px;
     width: 15em;
     display: flex;
     flex-direction: column;
@@ -30,7 +34,7 @@
 
 .QA, .workshopCard{
     border: dotted;
-    border-color: rgb(0, 255, 221);
+    border-color: #b5cbe5;
     color: rgb(232, 239, 238);
 }
 
@@ -49,3 +53,7 @@
     display: flex;
     align-items: center;
 } */
+
+.QA{
+    margin-top: 2em;
+}

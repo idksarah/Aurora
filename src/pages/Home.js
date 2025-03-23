@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Home.css';
-import logo from './../img/logo.svg';
+import logo from './../img/aurora.png';
 import QuestionAnswer from '../components/QuestionAnswer';
 import Card, { PastEventCard } from '../components/Card';
 import Workshop from '../components/Workshop';
@@ -39,7 +39,7 @@ function Home() {
                 </div>
                 <div className="about container" id="about">
                     <p className="h3 accent">Aurora?</p>
-                    <p className="aboutContent p2">Aurora is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
+                    <p className="aboutContent p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
                 </div>
                 <div className="pastEventCards container">
                     <p className="h3 accent">Past Events</p>
