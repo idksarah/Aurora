@@ -74,7 +74,7 @@ cursor: pointer;
 color: rgb(232, 239, 238);
 }
 
-.topBarElement:hover {
+.topBarElement:hover, .reg:hover {
 color: #dcd1c8;
 }
 
@@ -182,4 +182,9 @@ max-width: 100%;
     width: 90%; /* Ensures full width on smaller screens */
     max-width: 300px;
 }
+}
+
+.reg{
+    margin-top: -.5em;
+    color:#b5cbe5
 }

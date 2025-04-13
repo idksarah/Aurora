@@ -31,12 +31,25 @@ function Home() {
                         <p className="topBarElement" onClick={() => scrollToSection('aurora')}>Aurora</p>
                         <p className="topBarElement" onClick={() => scrollToSection('workshops')}>Workshops</p>
                         <p className="topBarElement" onClick={() => scrollToSection('faq')}>FAQ</p>
+                        
+                        <p
+                        className="topBarElement"
+                        onClick={() => window.location.href = "https://forms.fillout.com/t/hTZKLiVvU8us"}
+                        style={{ cursor: 'pointer' }}
+                        >Register</p>
                     </div>
                 </div>
                 <div className="logoContainer" id="aurora">
                     <img src={logo} className="logo" alt="logo" />
                     <p className="location white">San Francisco, CA</p>
                 </div>
+                <p
+                className="reg white"
+                onClick={() => window.location.href = "https://forms.fillout.com/t/hTZKLiVvU8us"}
+                style={{ cursor: 'pointer' }}
+                >
+                Register!
+                </p>
                 <div className="about container" id="about">
                     <p className="h3 accent">Aurora?</p>
                     <p className="aboutContent p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
