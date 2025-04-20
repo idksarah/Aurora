@@ -13,6 +13,7 @@ import golden from '../img/golden.jfif'
 import workshop1 from '../img/workshop1.png'
 import workshop2 from '../img/workshop2.png'
 import hackClub from '../img/flag-orpheus-left.png'
+import gamedev from '../img/gamedev.png'
 
 function Home() {
     const scrollToSection = (id) => {
@@ -52,7 +53,7 @@ function Home() {
                 </p>
                 <div className="about container" id="about">
                     <p className="h3 accent">Aurora?</p>
-                    <p className="aboutContent p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
+                    <p className="aboutContent center p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
                 </div>
                 <div className="pastEventCards container">
                     <p className="h3 accent">Past Events</p>
@@ -67,9 +68,14 @@ function Home() {
                 <div className="workshops container" id="workshops">
                     <p className="h3 accent">Workshops</p>
                     <div className="workshopCards">
-                        <Workshop title="Onboard" content="Design and print a circuit board!" img={workshop1} />
-                        <Workshop title="Webdev" content="Build a website from scratch with HTML, CSS, and JS!" img={workshop2} />
+                        <Workshop title="Day 1 | Onboard" content="Design and print a circuit board!" img={workshop1} />
+                        <Workshop title="Day 2 | Web Development" content="Build a website from scratch with HTML, CSS, and JS!" img={gamedev} />
+                        <Workshop title="Day 3 | Game Development" content=" Create your own videogame!" img={workshop2} />
                     </div>
+                </div>
+                <div className="schedule">
+                    <p className="h3 accent">Schedule</p>
+                    <p className="text p2 white">event - time</p>
                 </div>
                 <div className="faq container" id="faq">
                     <p className="h3 accent">FAQs</p>
@@ -87,3 +93,12 @@ function Home() {
 }
 
 export default Home;
+
+/*
+-reg form
+-schedule
+-logo
+
+-workshops
+-domain
+*/

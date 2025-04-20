@@ -5,6 +5,7 @@
 .workshopCard{
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .workshopCards{
@@ -15,4 +16,8 @@
 .workshopContent{
     display: flex;
     color: rgb(232, 239, 238);
+}
+
+#workshopContent{
+    text-align: left;
 }

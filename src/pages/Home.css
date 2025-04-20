@@ -24,7 +24,6 @@ margin: 0 auto;
 
 .text, p {
 font-size: 1.5rem;
-text-align: center;
 }
 
 .logo {
@@ -99,48 +98,49 @@ font-size: 1.5rem;
 
 .workshopCard {
     flex: 1 1 300px; /* Ensures equal width */
-    max-width: 300px;
+    max-width: 200px;
     padding: 1em;
     border-radius: 10px;
-    text-align: center;
     color: white;
 }
 
 .container {
-display: flex;
-flex-direction: column;
-max-width: 100%;
-margin-bottom: 3em;
-padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 3em;
+    padding: 0 1em;
 }
 
 .aboutContent {
-color: rgb(232, 239, 238);
+    color: rgb(232, 239, 238);
 }
 
 .p2 {
-font-size: 1.75rem;
-text-align: center;
+    font-size: 1.75rem;
+}
+
+.center {
+    text-align: center;
 }
 
 .date {
-text-align: center;
+    text-align: center;
 }
 
 .logoContainer {
-margin-bottom: 5em;
+    margin-bottom: 5em;
 }
 
 .white {
-color: rgb(232, 239, 238);
+    color: rgb(232, 239, 238);
 }
 
 .hackclubLogo {
-height: 7em;
-max-width: 100%;
+    height: 7em;
+    max-width: 100%;
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
 .content {
     max-width: 95%;
