@@ -10,10 +10,10 @@ import luna from '../img/luna.png'
 import ascend from '../img/ascend.webp'
 import celestial from '../img/celestial.webp'
 import golden from '../img/golden.jfif'
-import workshop1 from '../img/workshop1.png'
-import workshop2 from '../img/workshop2.png'
+import pcb from '../img/orpheus-skateboarding-PCB.png'
 import hackClub from '../img/flag-orpheus-left.png'
-import gamedev from '../img/gamedev.png'
+import gamedev from '../img/orpheus.png'
+import webdev from '../img/orpheus1.png'
 
 function Home() {
     const scrollToSection = (id) => {
@@ -68,9 +68,9 @@ function Home() {
                 <div className="workshops container" id="workshops">
                     <p className="h3 accent">Workshops</p>
                     <div className="workshopCards">
-                        <Workshop title="Day 1 | Onboard" content="Design and print a circuit board!" img={workshop1} />
-                        <Workshop title="Day 2 | Web Development" content="Build a website from scratch with HTML, CSS, and JS!" img={gamedev} />
-                        <Workshop title="Day 3 | Game Development" content=" Create your own videogame!" img={workshop2} />
+                        <Workshop title="Day 1 | Onboard" content="Design and print a circuit board!" img={pcb} />
+                        <Workshop title="Day 2 | Web Dev + AI" content="Build a website with HTML, CSS, and JS and integreate AI!" img={webdev} />
+                        <Workshop title="Day 3 | Game Dev" content=" Create your own videogame!" img={gamedev} />
                     </div>
                 </div>
                 <div className="schedule">

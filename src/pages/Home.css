@@ -28,7 +28,8 @@ font-size: 1.5rem;
 
 .logo {
 max-width: 100%;
-height: auto;
+min-height: 20em;
+max-height: 40em;
 }
 
 .h3 {
