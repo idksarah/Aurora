@@ -17,7 +17,7 @@
 .pastEventCard{
     background-color: rgb(232, 239, 238);
     border: dotted;
-    border-color: #b5cbe5;
+    border-color: #e7a1de;
     
     border-radius: 0px;
     width: 15em;
@@ -34,7 +34,7 @@
 
 .QA, .workshopCard{
     border: dotted;
-    border-color: #b5cbe5;
+    border-color: #e7a1de;
     color: rgb(232, 239, 238);
 }
 
@@ -47,12 +47,6 @@
 .workshopCard{
     max-width: 50em;
 }
-
-/* .workshopCards, .pastEventCards{
-    max-width: 60em;
-    display: flex;
-    align-items: center;
-} */
 
 .QA{
     margin-top: 2em;

@@ -3,7 +3,7 @@ import './Workshop.css';
 function Workshop({title, day, content, img}) {
     return (
         <div className="workshopCard card">
-            <p className ="h3 accent text workshopContent">{title}</p>
+            <p className ="h3 italics accent text workshopContent">{title}</p>
             <div className="p2 workshopContent" id="workshopContent">
                 <p className="h4 p2 text">{content}</p>
                 <img className="workshopImg" src={img}></img>

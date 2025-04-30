@@ -15,6 +15,8 @@ import hackClub from '../img/flag-orpheus-left.png'
 import gamedev from '../img/orpheus.png'
 import webdev from '../img/orpheus1.png'
 
+document.title = "Aurora"
+
 function Home() {
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
@@ -42,7 +44,7 @@ function Home() {
                 </div>
                 <div className="logoContainer" id="aurora">
                     <img src={logo} className="logo" alt="logo" />
-                    <p className="location white">San Francisco, CA</p>
+                    <p className="location white">San Francisco, CA | 8:00 AM - 2:30 PM July 18-20</p>
                 </div>
                 <p
                 className="reg white"
@@ -52,8 +54,7 @@ function Home() {
                 Register!
                 </p>
                 <div className="about container" id="about">
-                    <p className="h3 accent">Aurora?</p>
-                    <p className="aboutContent center p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people!</p>
+                    <p className="aboutContent center p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people</p>
                 </div>
                 <div className="pastEventCards container">
                     <p className="h3 accent">Past Events</p>
@@ -68,15 +69,15 @@ function Home() {
                 <div className="workshops container" id="workshops">
                     <p className="h3 accent">Workshops</p>
                     <div className="workshopCards">
-                        <Workshop title="Day 1 | Onboard" content="Design and print a circuit board!" img={pcb} />
-                        <Workshop title="Day 2 | Web Dev + AI" content="Build a website with HTML, CSS, and JS and integreate AI!" img={webdev} />
+                        <Workshop title="Day 1 | PCBs" content="Design and print a circuit board!" img={pcb} />
+                        <Workshop title="Day 2 | Web Dev + 3D Village" content="Build a website with HTML, CSS, and JS and 3D models!" img={webdev} />
                         <Workshop title="Day 3 | Game Dev" content=" Create your own videogame!" img={gamedev} />
                     </div>
                 </div>
-                <div className="schedule">
+                {/* <div className="schedule">
                     <p className="h3 accent">Schedule</p>
                     <p className="text p2 white">event - time</p>
-                </div>
+                </div> */}
                 <div className="faq container" id="faq">
                     <p className="h3 accent">FAQs</p>
                     <div className="questionCards">
