@@ -36,7 +36,7 @@ function Home() {
                         <p className="topBarElement" onClick={() => scrollToSection('faq')}>FAQ</p>
                         
                         <p
-                        className="topBarElement"
+                        className="topBarElement" id="register"
                         onClick={() => window.location.href = "https://forms.fillout.com/t/hTZKLiVvU8us"}
                         style={{ cursor: 'pointer' }}
                         >Register</p>
@@ -70,7 +70,7 @@ function Home() {
                     <p className="h3 accent">Workshops</p>
                     <div className="workshopCards">
                         <Workshop title="Day 1 | PCBs" content="Design and print a circuit board!" img={pcb} />
-                        <Workshop title="Day 2 | Web Dev + 3D Village" content="Build a website with HTML, CSS, and JS and 3D models!" img={webdev} />
+                        <Workshop title="Day 2 | Web Dev + 3D Village" content="Build a website with HTML, CSS, JS, and 3D models!" img={webdev} />
                         <Workshop title="Day 3 | Game Dev" content=" Create your own videogame!" img={gamedev} />
                     </div>
                 </div>
