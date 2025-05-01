@@ -30,32 +30,24 @@ function Home() {
             <div className="content">
                 <div className="topBar">
                     <img className="hackclubLogo" src={hackClub} alt="Hack Club Logo"/>
-                    <div className="topBarElements">
-                        <p className="topBarElement" onClick={() => scrollToSection('aurora')}>Aurora</p>
-                        <p className="topBarElement" onClick={() => scrollToSection('workshops')}>Workshops</p>
-                        <p className="topBarElement" onClick={() => scrollToSection('faq')}>FAQ</p>
-                        
-                        <p
-                        className="topBarElement" id="register"
-                        onClick={() => window.location.href = "https://forms.fillout.com/t/hTZKLiVvU8us"}
-                        style={{ cursor: 'pointer' }}
-                        >Register</p>
-                    </div>
+                    {/* <p
+                    className="topBarElement registerTop" id="register"
+                    onClick={() => window.location.href = "http://hack.club/aurora-sf"}
+                    style={{ cursor: 'pointer' }}
+                    >Sign up!</p> */}
                 </div>
                 <div className="logoContainer" id="aurora">
                     <img src={logo} className="logo" alt="logo" />
-                    <p className="location white">San Francisco, CA | 8:00 AM - 2:30 PM July 18-20</p>
+                </div>
+                <p className="location white">San Francisco, CA | 8:00 AM - 2:30 PM July 18-20</p>
+                <div className="about container" id="about">
+                    <p className="aboutContent center p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon with 3 days of workshops, mentors, and hands-on coding & engineering projects—no experience needed!</p>
                 </div>
                 <p
                 className="reg white"
-                onClick={() => window.location.href = "https://forms.fillout.com/t/hTZKLiVvU8us"}
+                onClick={() => window.location.href = "http://hack.club/aurora-sf"}
                 style={{ cursor: 'pointer' }}
-                >
-                Register!
-                </p>
-                <div className="about container" id="about">
-                    <p className="aboutContent center p2"><span className="accent">Aurora</span> is a beginner-friendly, gender-focused hackathon. We’ll have workshops, mentors, and speakers to help you build your first coding project and meet new people</p>
-                </div>
+                >Register!</p>
                 <div className="pastEventCards container">
                     <p className="h3 accent">Past Events</p>
                     <div className="pastEventCards">

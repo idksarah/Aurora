@@ -29,7 +29,7 @@ font-size: 1.5rem;
 .logo {
 max-width: 100%;
 min-height: 20em;
-max-height: 40em;
+max-height: 25em;
 }
 
 .h3 {
@@ -56,7 +56,7 @@ justify-content: center;
 height: 5em;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-between;
 flex-wrap: wrap;
 }
 
@@ -115,6 +115,8 @@ font-size: 1.5rem;
 
 .aboutContent {
     color: rgb(232, 239, 238);
+    height: fit-content;
+    margin-bottom: -1em;
 }
 
 .p2 {
@@ -140,7 +142,11 @@ font-size: 1.5rem;
 .hackclubLogo {
     height: 7em;
     max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
+
 
 @media (max-width: 768px) {
 .content {
@@ -186,14 +192,33 @@ font-size: 1.5rem;
 }
 
 .reg{
-    margin-top: -.5em;
-    color:#e7a1de
+    margin-top: -1em;
+    color:#b379c9;
+    color: white;
+    
+    margin: 1em;
+    padding: .5em 1em .5em 1em ;
+    background-color: #b379c9;
 }
 
 .italics{
     font-style: italic;
 }
 
-#register:hover {
-    color: #e7a1de;
+
+.about {
+}
+
+.registerTop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    padding: .5em 1em .5em 1em ;
+    background-color: #b379c9;
+    /* color: rgb(41, 41, 41); */
+}
+
+.pastEventCards.container {
+    margin-top: 5em;
 }
