@@ -63,7 +63,18 @@ function Home() {
                     <div className="workshopCards">
                         <Workshop title="Day 1 | PCBs" content="Design and print a circuit board!" img={pcb} />
                         <Workshop title="Day 2 | Web Dev + 3D Village" content="Build a website with HTML, CSS, JS, and 3D models!" img={webdev} />
-                        <Workshop title="Day 3 | Game Dev" content=" Create your own videogame!" img={gamedev} />
+                        <a
+                            href="https://drive.google.com/drive/folders/1JdYlUSjH3DoACI68TpAbFUhNrgiEMYCj"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ textDecoration: "none"}}
+                            >
+                            <Workshop
+                                title="Day 3 | Game Dev"
+                                content="Create your own videogame!"
+                                img={gamedev}
+                            />
+                            </a>
                     </div>
                 </div>
                 {/* <div className="schedule">
