@@ -1,0 +1,32 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+    @apply scroll-smooth;
+}
+
+body {
+    @apply bg-light-pink text-black;
+}
+
+
+a > span {
+    @apply hover:bg-dark-pink/40 hover:text-pink-900 hover:decoration-2;
+}
+
+h2 {
+    @apply w-fit rounded-full px-3 py-1 text-center text-xl font-bold;
+}
+
+h3 {
+    @apply text-lg font-semibold italic;
+}
+
+h4 {
+    @apply text-xl font-semibold italic;
+}
+
+.faq {
+    @apply my-4 w-full border border-dashed;
+}
