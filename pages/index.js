@@ -173,13 +173,6 @@ export default function Home() {
               </div>
               <p className="text-center font-title italic">Blossom | Atlanta, GA</p>
             </div>
-
-            <div className="bg-[#1c1c19] p-6 rounded-2xl border border-[#dba7d0]/30 hover:border-[#dba7d0] transition-colors cursor-pointer flex-shrink-0">
-              <div className="w-60 h-40 bg-[#dba7d0]/10 rounded-xl mb-4 overflow-hidden">
-                <img src="/photos/spark.jpg" alt="Spark event" className="w-full h-full object-cover" />
-              </div>
-              <p className="text-center font-title italic">Spark | Boston, MA</p>
-            </div>
           </div>
         </section>
 
