@@ -198,16 +198,21 @@ export default function Home() {
                 <p className="font-body">Design and Print Circuit Board Keychains!</p>
               </div>
             </div>
-
+            <a href="https://drive.google.com/drive/folders/1JdYlUSjH3DoACI68TpAbFUhNrgiEMYCj" target="_blank" rel="noopener noreferrer" className="block">
             <div className="workshop-card transform hover:scale-105 transition-transform">
               <div className="w-full h-48 bg-[#dba7d0]/10 rounded-t-2xl flex items-center justify-center overflow-hidden">
-                <img src="/photos/gamdev.jpg" alt="Game Development" className="w-full h-full object-cover" />
+                <img
+                  src="/photos/gamdev.jpg"
+                  alt="Game Development"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6 bg-[#1c1c19] rounded-b-2xl border-x border-b border-[#dba7d0]/30">
                 <h3 className="text-2xl font-title italic mb-2">Day 3: Game Dev</h3>
                 <p className="font-body">Create Your Own Video Game!</p>
               </div>
             </div>
+          </a>
           </div>
         </section>
 
